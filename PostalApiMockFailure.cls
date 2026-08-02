@@ -1,4 +1,4 @@
-@isTest
+
 global class PostalApiMockFailure implements HttpCalloutMock {
     global HttpResponse respond(HttpRequest req) {
         HttpResponse res = new HttpResponse();
